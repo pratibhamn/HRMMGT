@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.By;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import generic.BasePage;
@@ -27,6 +28,7 @@ public class TestScripts extends BaseTest {
 		pi.setLastName("stud");
 		pi.clickSaveBtn();
 		pi.verifyFirstname("Kevin1");
+		Reporter.log("Hi",true);
 		
 	}
 	@Test(enabled=false)
