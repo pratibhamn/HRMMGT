@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matchingOrangeHRM]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24516" started-at="2018-12-01T01:44:29Z" finished-at="2018-12-01T01:44:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24516" started-at="2018-12-01T01:44:29Z" finished-at="2018-12-01T01:44:53Z">
+      <class name="scripts.TestScripts">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:scripts.TestScripts@42dafa95]" name="preCondition" is-config="true" duration-ms="14171" started-at="2018-12-01T07:14:29Z" finished-at="2018-12-01T07:14:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testCreateEmployee()[pri:0, instance:scripts.TestScripts@42dafa95]" name="testCreateEmployee" duration-ms="8975" started-at="2018-12-01T07:14:43Z" finished-at="2018-12-01T07:14:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matchingOrangeHRM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreateEmployee -->
+        <test-method status="PASS" signature="postCondtion()[pri:0, instance:scripts.TestScripts@42dafa95]" name="postCondtion" is-config="true" duration-ms="1338" started-at="2018-12-01T07:14:52Z" finished-at="2018-12-01T07:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondtion -->
+      </class> <!-- scripts.TestScripts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
